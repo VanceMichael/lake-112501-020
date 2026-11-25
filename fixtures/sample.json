@@ -1,5 +1,27 @@
 {
   "说明": "本地合成演练资料",
   "业务对象": "保质期事件的批次追溯与库存可用性湖",
-  "记录": []
+  "记录": [
+    {
+      "lot": "LOT-1",
+      "box": "BX-1",
+      "event_time": "2026-10-22T08:00:00Z",
+      "temperature": 4.2,
+      "state": "合格"
+    },
+    {
+      "lot": "LOT-1",
+      "box": "BX-1",
+      "event_time": "2026-10-22T09:00:00Z",
+      "temperature": 9.5,
+      "state": "超限"
+    },
+    {
+      "lot": "LOT-2",
+      "box": "BX-2",
+      "event_time": "2026-10-22T10:00:00Z",
+      "temperature": null,
+      "state": "缺测"
+    }
+  ]
 }
